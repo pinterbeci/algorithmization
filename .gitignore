@@ -1,5 +1,20 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
 ### IntelliJ IDEA ###
-/.idea/
+.idea
 *.iws
 *.iml
 *.ipr
@@ -11,7 +26,8 @@
 /nbdist/
 /.nb-gradle/
 build/
-/nb-configuration.xml
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
