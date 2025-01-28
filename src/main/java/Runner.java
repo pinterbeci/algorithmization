@@ -1,7 +1,5 @@
 package main.java;
 
-import main.java.hu.pinterbeci.algorithms.optionals.Optionals;
-
 public class Runner {
     public static void main(String[] args) {
         // System.out.println(Fibonacci.fibonacci(6));
@@ -13,8 +11,6 @@ public class Runner {
         //int $r = 545;
         //System.out.println(_a);
         //System.out.println($r);
-
-        Optionals.tryOptionals();
 
     }
 }
